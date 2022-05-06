@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="images\radar5.png">
+		<title>test Radar ENNA</title>
+	
+		<link rel="stylesheet" href="PFE.css">
+    <style>
+
+	</style>
+    <!-- Load the Processing.js library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+	</head>
+	<body>
+		<script 
+		src="PFE.js" type="application/processing">	
+		</script>
+		<canvas> </canvas>
+		<h2 id="titre">Filtrage des donnée Radar <br> par Zone géographique</h2>
+		<button class=" Filtrage"id="button" onclick=>- FILTRAGE -</button>
+		
+		<table class="tableau-style">
+         <thead>
+			<tr>
+				<th>ZONE/NAME</th>
+				<th>CODE SSR</th>
+				<th>Azimut(°)</th>
+				<th>Rang(NM)</th>
+				<th>Flight Level (FL)</th>
+				<th>Vitesse(KT)</th>
+			  </tr>
+		<thead>
+		<tbody>  
+			  <tr>
+				  <td>DAH6006</td>
+				  <td>0A0020</td>
+				  <td>65.81</td>
+				  <td>120</td>
+				  <td>360</td>
+				  <td>450</td>
+			  </tr>
+			  <tr>
+				<td>LRYR6TY</td>
+				  <td>4D2262</td>
+				  <td>162</td>
+				  <td>190</td>
+				  <td>355</td>
+				  <td>462</td>
+			</tr>
+			<tr>
+				<td>DLH1326</td>
+				  <td>3C65C9</td>
+				  <td>59</td>
+				  <td>217</td>
+				  <td>295</td>
+				  <td>424</td>
+			</tr>
+			<tr>
+				<td>HE5555</td>
+				  <td>0101FA</td>
+				  <td>288</td>
+				  <td>167</td>
+				  <td>300</td>
+				  <td>507</td>
+			</tr>
+			<tr>
+				<td>BEL369</td>
+				  <td>44CCD</td>
+				  <td>34</td>
+				  <td>141</td>
+				  <td>410</td>
+				  <td>471</td>
+			</tr>
+		</tbody>	
+
+
+		</table>
+	</body>
+</html>

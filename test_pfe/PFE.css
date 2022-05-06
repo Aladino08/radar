@@ -1,0 +1,53 @@
+
+h2 {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+  line-height: 1.2;
+  text-transform: uppercase;
+ 
+}
+  body{
+	  background-image: url(images/aeroport.webp);
+     font-family: Arial, Helvetica, sans-serif;
+	}
+  button{
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1EB16E ;
+    position: relative;
+    top: -100px;
+    left: 215px;
+  }
+  .tableau-style{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(15, 14, 14, 0.788);
+    cursor: pointer;
+    border:5px solid rgb(44, 172, 93);
+    margin-left:  705px;
+    margin-top: -500px;
+
+  }
+  thead 
+  tr{
+    background-color: #2bdf94da;
+    color: black;
+    text-align: center;
+  }
+  th,td{
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 15px 10px;
+    text-align:center;
+  }
+  tbody, td ,tr, th{
+    border: 1px solid rgba(32, 32, 32, 0.336);
+  }
+ tbody tr:nth-child(even){
+   background-color: rgba(121, 112, 112, 0.452);
+ }
